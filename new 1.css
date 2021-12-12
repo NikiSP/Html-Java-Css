@@ -1,0 +1,98 @@
+
+
+  body {
+     background-color:#000000;
+	 color:#FFFFFF;
+     font-size: 20pt;
+	  text-align:Left;
+	 
+    }
+
+
+img {display: inline-block; float: Right;}
+
+	
+	
+.navigationbar {
+  background-color:#8B0000;
+  overflow: hidden;
+}
+.navigationbar a:hover {
+  background-color:#f70d1a;
+  color:#000000;
+}
+
+.navigationbar a {
+  float:Left;
+  color:#000000;
+  text-align:center;
+  padding:12px 20px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+
+.container {
+  padding: 60px;
+  text-align: Left;
+}
+
+
+input[type=text] {
+  width: 20%;
+  padding: 15px;
+  margin: 2px 0 12px 0;
+  
+  border-style: solid;
+  border-color: #8B0000;
+  border-width: thick;
+  background: #FFFFFF;
+}
+
+input[type=text]:focus {
+  background-color: #FFFFFF;
+  outline: none;
+}
+.btn {
+	   
+	     background-color: #8B0000;
+  color: #FFFFFF;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+	   
+	   cursor: pointer;
+	   
+	   
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+
+a {
+  color: dodgerblue;
+}
+
+
+
+
+
+.navgationbar a.active {
+  background-color:#f70d1a;
+  color:white;
+}

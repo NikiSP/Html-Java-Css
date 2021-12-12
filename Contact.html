@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<title>
+	Niki
+	</title>
+	 <link rel="stylesheet" type="text/CSS" href="new 1.CSS" />
+	</head>
+	 
+<div class="navigationbar">
+  <a class="active" 
+     href="About.html">About Me</a>
+  <a href="Ability.html">Abilities</a>
+  <a href="Achievements.html">Achievements</a>
+  <a href="Contact.html">How to Contact Me</a>
+</div>
+<div class="footer">
+  <p>
+  Email Address         sepasian.niki@gmail.com
+  <br>
+  stackoverflow         <a href="https://stackoverflow.com/users/17518990/niki-sp">https://stackoverflow.com/users/17518990/niki-sp</a>           
+  <br>
+  GitHub         <a href="https://github.com/NikiSP/">https://github.com/NikiSP/</a>
+
+  </p>
+</div>
+  
+ <form "return ajaxpost()">
+  <div class="container">
+    How to contact me
+    <p>In order to reach out to me, please fill this form</p>
+    
+    <label for="first name"><b>First Name</b></label>
+<br>	
+    <input type="text"  name="first name" id="first name" required>
+<br>
+    <label for="last name"><b>Last Name</b></label>
+<br>	
+    <input type="text"  name="last name" id="last name" required>
+<br>
+    <label for="Email"><b>Email</b></label>
+<br>    
+	<input type="text"  name="Email" id="Email" required>
+<br>
+    <label for="Message"><b>Message</b></label>
+<br>	
+
+    <textarea type="text"  name="Email" id="Message" required></textarea>
+ 
+ 
+ 
+ <br> <br> 
+<button class="btn" onclick="myFunction()">Send</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var txt;
+  if (confirm("Are you sure you want to send your message?")) {
+    alert("Thank you");
+  } else {
+    alert("Operation got canceled");
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+</script>
+
+  </div>
+
+</form>
+
+
+
+
+
+</html>
